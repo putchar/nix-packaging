@@ -10,3 +10,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 python-modules/subprocess-tee/default.nix
 python-modules/subprocess-tee/shell.nix
+
+### Changed
+this repo now tries to follow the same file hierarchy structure of nixpkgs repo
