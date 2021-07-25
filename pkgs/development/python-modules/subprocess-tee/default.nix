@@ -18,10 +18,6 @@ python3Packages.buildPythonPackage rec {
     enrich
   ];
 
-  checkPhase = ''
-    pytest
-  '';
-
   pythonImportsCheck = [
     "subprocess_tee"
   ];
