@@ -9,7 +9,7 @@ python3Packages.buildPythonPackage rec {
     sha256 = "01b0z8mcm568v9carhi0py1hs34wrbnlzyvdmhqzipql407kdpk2";
   };
 
-  propagatedBuildInputs = with python3Packages; [
+  nativeBuildInputs = with python3Packages; [
     setuptools-scm
   ];
 
