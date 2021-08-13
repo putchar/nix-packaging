@@ -23,9 +23,9 @@ python3Packages.buildPythonPackage rec {
   ];
 
   meta = with lib; {
-    description = "Simple, easy-to-use throttler for asyncio";
-    homepage = "https://github.com/hallazzang/asyncio-throttle";
+    homepage = "https://github.com/pycontribs/subprocess-tee";
+    description = "A subprocess.run drop-in replacement that supports a tee mode";
     license = licenses.mit;
-    maintainers = with maintainers; [ hexa ];
+    maintainers = with maintainers; [ putchar ];
   };
 }
